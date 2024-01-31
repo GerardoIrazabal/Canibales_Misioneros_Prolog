@@ -52,5 +52,3 @@ mostrar_solucion([]) :- writeln('Todos han cruzado el río con éxito.').
 mostrar_solucion([M|Ms]) :-
     writeln(M),
     mostrar_solucion(Ms).
-
-% Para ejecutar: ?- iniciar.
